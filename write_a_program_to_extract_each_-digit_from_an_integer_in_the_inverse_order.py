@@ -10,5 +10,7 @@ def reverse_digits(integer):
         print(digit, end=" ")
 
 given_integer = 7536
+print("\033[1;32;40mGiven integer:", given_integer)
+print("Output integer in reverse order:", end=" ")
 
 reverse_digits(given_integer)
